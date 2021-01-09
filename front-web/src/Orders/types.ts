@@ -5,3 +5,9 @@ export interface ProductProps{
     description: string;
     imageUri: string;
 }
+
+export interface OrderLocationdata{
+    latitude: number;
+    longitude: number;
+    addres: string;
+}
