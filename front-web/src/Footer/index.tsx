@@ -8,13 +8,13 @@ function Footer() {
         <footer className="main-footer">
             App desenvolvido durante a 2ª ed. do evento Semana DevSuperior
             <div className="footer-icons">
-                <a href="" target="_new">
+                <a href="https://www.youtube.com/channel/UCWVYsWuXQXRPSrISs4KZYhw" target="_new">
                     <Youtube />
                 </a>
-                <a href="">
+                <a href="https://www.instagram.com/?hl=pt-br">
                     <Instagram />
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/in/wellington-hiroshi-takano/">
                     <LinkedIn />
                 </a>
             </div>
