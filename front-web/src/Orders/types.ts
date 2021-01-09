@@ -6,8 +6,16 @@ export interface ProductProps{
     imageUri: string;
 }
 
-export interface OrderLocationdata{
+export interface OrderLocationData{
     latitude: number;
     longitude: number;
-    addres: string;
+    address: string;
 }
+
+type ProductID = {
+    id: number;
+}
+
+export type OrderPayLoad = {
+    products: ProductID[];
+} & OrderLocationData;
