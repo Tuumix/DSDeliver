@@ -1,13 +1,17 @@
-import './styles.css'
-import {ReactComponent as Youtube} from './Youtube.svg';
-import {ReactComponent as Instagram} from './Instagram.svg';
-import {ReactComponent as LinkedIn} from './Linkedin.svg';
+import React from 'react';
+import {ReactComponent as Youtube} from '../../assets/Instagram.svg';
+import {ReactComponent as Instagram} from '../../assets/Instagram.svg';
+import {ReactComponent as LinkedIn} from '../../assets/Linkedin.svg';
+import { 
+    MainFooter,
+    FooterIcons 
+} from './styles';
 
 function Footer() {
     return (
-        <footer className="main-footer">
+        <MainFooter>
             App desenvolvido durante a 2ª ed. do evento Semana DevSuperior
-            <div className="footer-icons">
+            <FooterIcons>
                 <a href="https://www.youtube.com/channel/UCWVYsWuXQXRPSrISs4KZYhw" target="_new">
                     <Youtube />
                 </a>
@@ -17,8 +21,8 @@ function Footer() {
                 <a href="https://www.linkedin.com/in/wellington-hiroshi-takano/">
                     <LinkedIn />
                 </a>
-            </div>
-        </footer>
+            </FooterIcons>
+        </MainFooter>
     )
 }
 

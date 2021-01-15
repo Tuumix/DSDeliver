@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import ProductsList from "./ProductsList";
 import StepsHeader from "./StepsHeader";
 import { OrderLocationData, ProductProps } from "./types";
-import { fetchProducts, saveOrder } from '../api';
+import { fetchProducts, saveOrder } from '../../api';
 import OrderLocation from "./OrderLocation";
 import OrderSummary from "./OrderSummary";
 import Footer from "../Footer";
