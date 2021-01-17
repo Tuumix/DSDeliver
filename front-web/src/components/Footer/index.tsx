@@ -1,7 +1,7 @@
 import React from 'react';
-import {ReactComponent as Youtube} from '../../assets/Instagram.svg';
-import {ReactComponent as Instagram} from '../../assets/Instagram.svg';
-import {ReactComponent as LinkedIn} from '../../assets/Linkedin.svg';
+import {ReactComponent as Youtube} from '../../assets/svg/Instagram.svg';
+import {ReactComponent as Instagram} from '../../assets/svg/Instagram.svg';
+import {ReactComponent as LinkedIn} from '../../assets/svg/Linkedin.svg';
 import { 
     MainFooter,
     FooterIcons 
